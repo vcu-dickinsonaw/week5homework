@@ -2,17 +2,17 @@
 
 
 def find_greatest_number(incoming_list):
-    max(incoming_list)
+    return max(incoming_list)
     pass
 
 
 def find_least_number(incoming_list):
-    min(incoming_list)
+    return min(incoming_list)
     pass
 
 
 def add_list_numbers(incoming_list):
-    sum(incoming_list)
+    return sum(incoming_list)
     pass
 
 
@@ -21,8 +21,8 @@ def longest_value_key(incoming_dict):
     second_key_length = len(incoming_dict[1:0])
 
     if first_key_length > second_key_length:
-        longest_value_key(first_key_length)
+        return longest_value_key(first_key_length)
     else:
-        longest_value_key(second_key_length)
+        return longest_value_key(second_key_length)
 
     pass
