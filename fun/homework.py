@@ -5,18 +5,15 @@ def find_greatest_number(incoming_list):
     find_greatest_number(max(incoming_list))
     pass
 
-
 def find_least_number(incoming_list):
     incoming_list = [2, 4, 6, 8, 10]
     find_least_number(min(incoming_list))
     pass
 
-
 def add_list_numbers(incoming_list):
     incoming_list = [2, 4, 6, 8, 10]
     add_list_numbers(sum(incoming_list))
     pass
-
 
 def longest_value_key(incoming_dict):
     incoming_dict = {
