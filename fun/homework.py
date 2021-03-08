@@ -1,6 +1,5 @@
 """ Homework file for my students to have fun with some algorithms! """
 
-
 def find_greatest_number(incoming_list):
     incoming_list = [2, 4, 6, 8, 10]
     find_greatest_number(max(incoming_list))
@@ -25,6 +24,7 @@ def longest_value_key(incoming_dict):
         "study": "Information Systems",
         "college": "VCU"
     }
+    
     first_key_length = len(incoming_dict['name'])
     second_key_length = len(incoming_dict['study'])
     third_key_length = len(incoming_dict['college'])
